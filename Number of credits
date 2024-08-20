@@ -1,0 +1,23 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+         Scanner read = new Scanner(System.in);
+         int T  = read.nextInt();
+           while(T-->0){
+             int X = read.nextInt();
+             int Y = read.nextInt();
+             int Z = read.nextInt();
+             int d = 4*X;
+             int e = 2*Y;
+             int f = Z/10;
+             int ans = d+e;
+             System.out.println(ans);
+           } 
+	}
+}
